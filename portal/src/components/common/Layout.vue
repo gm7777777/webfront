@@ -1,6 +1,7 @@
 <template>
 	<main class="page-wrapper">
 		<Header/>
+
 		
 		<div class="main-content">
 			<slot></slot>

@@ -1,34 +1,45 @@
 <template>
 	<div class="header-wrapper" >
-		<div class="header">
+		<!--<div class="header">-->
+			<!--<div class="header-left">-->
+				<!--<img src="../../../assets/images/logo.png" alt="">-->
+			<!--</div>-->
+			<!--<div class="header-mid">-->
+				<!--<div class="header-item">-->
+					<!--<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>-->
+					<!--<div class="item">-->
+						<!--<strong>15284734573</strong>-->
+						<!--<span>周一 ~ 周五, 8:30 - 17:30</span>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="header-item">-->
+					<!--<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>-->
+					<!--<div class="item">-->
+						<!--<strong>四川省成都市高新区</strong>-->
+						<!--<span>四川XXXX有限公司</span>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="header-right">-->
+				<!--<a href="tel:+18583266628" class="">-->
+					<!--<button type="button" >联系我们</button>-->
+				<!--</a>-->
+			<!--</div>-->
+		<!--</div>-->
+		
+		<div class="nav-wrapper header-default">
+			<div class="header">
 			<div class="header-left">
 				<img src="../../../assets/images/logo.png" alt="">
 			</div>
-			<div class="header-mid">
-				<div class="header-item">
-					<i style="color:#7c6aa6" class="contact-icon am-icon-phone"></i>
-					<div class="item">
-						<strong>15284734573</strong>
-						<span>周一 ~ 周五, 8:30 - 17:30</span>
-					</div>
-				</div>
-				<div class="header-item">
-					<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
-					<div class="item">
-						<strong>四川省成都市高新区</strong>
-						<span>四川XXXX有限公司</span>
-					</div>
-				</div>
+			<div class="header-item">
+			<i style="color:#7c6aa6" class="contact-icon am-icon-map-marker"></i>
+			<div class="item">
+			<strong>电栈网络科技</strong>
+			<span>股份有限公司</span>
 			</div>
-			<div class="header-right">
-				<a href="tel:+18583266628" class="">
-					<button type="button" >联系我们</button>
-				</a>
 			</div>
-		</div>
-		
-		<div class="nav-wrapper header-default">
-			<div class="nav">
+			<div class="header-mid headerNav-right">
 				<ul class="am-nav am-nav-pills am-nav-justify">
 					<li><router-link class="router" to="/index">网站首页</router-link></li>
 					<li><router-link class="router" to="/product">产品中心</router-link></li>
@@ -36,6 +47,9 @@
 					<li><router-link class="router" to="/news">公司动态</router-link></li>
 					<li><router-link class="router" to="/about">关于我们</router-link></li>
 				</ul>
+			</div>
+				<div class="header-right">
+				</div>
 			</div>
 		</div>
 	</div>
